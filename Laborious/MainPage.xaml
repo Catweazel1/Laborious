@@ -7,8 +7,53 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-    <Grid>
-
-    </Grid>
+    <ScrollViewer>
+        <Grid Width="500" HorizontalAlignment="Left" ScrollViewer.VerticalScrollBarVisibility="Auto">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Title 1" Margin="10,20,0,10" FontSize="24pt"/>
+            <TextBlock Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum aliquet ligula nec dignissim. Aliquam et faucibus lectus, sit amet efficitur sem. Aliquam pharetra feugiat sem, 
+                       sed sodales augue auctor a. Aenean imperdiet neque ut tellus fermentum, ac interdum lectus porta. Curabitur rutrum, augue nec laoreet sollicitudin, risus augue ultrices libero, a congue massa nisi eget tortor. 
+                       Vivamus suscipit volutpat sapien auctor scelerisque. Donec vitae urna in mi ornare sagittis. Maecenas consectetur euismod pulvinar. Etiam magna justo, mattis et dolor vitae, rutrum iaculis leo. Integer quis leo condimentum, auctor nisl." 
+                       Grid.Column="1" Grid.Row="1" TextWrapping="Wrap" Margin="20,0,0,0"/>
+            <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center">
+                <Rectangle Width="100" Height="30" Fill="Green"/>
+                <Rectangle Width="100" Height="30" Fill="Black"/>
+                <Rectangle Width="100" Height="30" Fill="Red"/>
+            </StackPanel>
+            <TextBlock Text="Title 2" Margin="10,20,0,10" FontSize="24pt" Grid.Row="3"/>
+            <TextBlock Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum aliquet ligula nec dignissim. Aliquam et faucibus lectus, sit amet efficitur sem. Aliquam pharetra feugiat sem, 
+                       sed sodales augue auctor a. Aenean imperdiet neque ut tellus fermentum, ac interdum lectus porta. Curabitur rutrum, augue nec laoreet sollicitudin, risus augue ultrices libero, a congue massa nisi eget tortor. 
+                       Vivamus suscipit volutpat sapien auctor scelerisque. Donec vitae urna in mi ornare sagittis. Maecenas consectetur euismod pulvinar. Etiam magna justo, mattis et dolor vitae, rutrum iaculis leo. Integer quis leo condimentum, auctor nisl."
+                       Grid.Column="1" Grid.Row="4" TextWrapping="Wrap" Margin="20,0,0,0"/>
+            <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Center">
+                <Rectangle Width="100" Height="30" Fill="red"/>
+                <Rectangle Width="100" Height="30" Fill="Black"/>
+                <Rectangle Width="100" Height="30" Fill="Blue"/>
+            </StackPanel>
+            <TextBlock Text="Title 3" Margin="10,20,0,10" FontSize="24pt" Grid.Row="6"/>
+            <TextBlock Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum aliquet ligula nec dignissim. Aliquam et faucibus lectus, sit amet efficitur sem. Aliquam pharetra feugiat sem, 
+                       sed sodales augue auctor a. Aenean imperdiet neque ut tellus fermentum, ac interdum lectus porta. Curabitur rutrum, augue nec laoreet sollicitudin, risus augue ultrices libero, a congue massa nisi eget tortor. 
+                       Vivamus suscipit volutpat sapien auctor scelerisque. Donec vitae urna in mi ornare sagittis. Maecenas consectetur euismod pulvinar. Etiam magna justo, mattis et dolor vitae, rutrum iaculis leo. Integer quis leo condimentum, auctor nisl."
+                       Grid.Column="1" Grid.Row="7" TextWrapping="Wrap" Margin="20,0,0,0"/>
+            <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="8" HorizontalAlignment="Center">
+                <Rectangle Width="100" Height="30" Fill="Blue"/>
+                <Rectangle Width="100" Height="30" Fill="Black"/>
+                <Rectangle Width="100" Height="30" Fill="Yellow"/>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
 </Page>
